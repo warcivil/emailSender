@@ -11,5 +11,6 @@ http://127.0.0.1:8000/api/email/  по POST создает новую запис
 ![Screenshot 2021-10-27 at 01 31 32](https://user-images.githubusercontent.com/36387132/138956315-44324845-ab1f-4276-8a14-504e1bdc1e68.png)
 
 
-http://127.0.0.1:8000/api/statistics/ статистика за 24 часа (GET)
-
+http://127.0.0.1:8000/api/statistics/ статистика за 24 часа (GET) (не обращайте внимания на поля  "destination": "dsadsa","destination": 1, изначально валидатора не было
+)
+![Screenshot 2021-10-27 at 01 44 01](https://user-images.githubusercontent.com/36387132/138958050-0ae79a61-7127-4f51-9b16-aca3590a9ca4.png)
