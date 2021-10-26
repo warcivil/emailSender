@@ -1,16 +1,13 @@
-from datetime import datetime, timedelta
-
 from django.shortcuts import get_object_or_404
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
 from django.db.models import Count
 
-from app.application.services.serializers import EmailSerializer
+from datetime import datetime, timedelta
+
+
+from app.application.services.serializers import EmailSerializer, StatisticsSerializer
 from app.models import Email
-
-from app.application.services.serializers import StatisticsSerializer
-
 
 class EmailView(APIView):
     def get(self, request):
